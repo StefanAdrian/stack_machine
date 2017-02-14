@@ -57,7 +57,6 @@
   Write a function:<br/>
 
        class Solution { public int solution(string S);
- <br/>
  
   that, given a string S consisting of N characters containing input for
   the stack machine, returns the result the machine would return if given
