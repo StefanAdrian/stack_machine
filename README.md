@@ -55,10 +55,9 @@
   its stack.<br/><br/>
  
   Write a function:<br/>
- 
 
        class Solution { public int solution(string S);
- <br/><br/>
+ <br/>
  
   that, given a string S consisting of N characters containing input for
   the stack machine, returns the result the machine would return if given
