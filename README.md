@@ -22,7 +22,7 @@
  its stack when the stack is empty, or if the stack is empty
  after the machine has processed the whole string.<br/><br/>
  
- For example, given the string "13+62*7+*" the machine will perform the
+ For example, given the string "13+62*7+\*" the machine will perform the
  following operations:<br/><br/>
 
  <pre>
