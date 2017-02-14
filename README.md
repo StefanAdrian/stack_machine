@@ -25,30 +25,30 @@
  For example, given the string "13+62*7+*" the machine will perform the
  following operations:<br/><br/>
 
-* <pre>
- *
- *  character | comment                | stack
- * -----------------------------------------------
- *            |                        | [empty]
- * '1'        | push 1 onto the stack  |
- *            |                        | 1
- * '3'        | push 3 onto the stack  |
- *            |                        | 1, 3
- * '+'        | perform addition       |
- *            |                        | 4
- * '6'        | push 6 onto the stack  |
- *            |                        | 4, 6
- * '2'        | push 2 onto the stack  |
- *            |                        | 4, 6, 2
- * '*'        | perform multiplication |
- *            |                        | 4, 12
- * '7'        | push 7 onto the stack  |
- *            |                        | 4, 12, 7
- * '+'        | perform addition       |
- *            |                        | 4, 19
- * '*'        | perform multiplication |
- *            |                        | 76
- * }</pre>
+ <pre>
+ 
+   character | comment                | stack
+  -----------------------------------------------
+             |                        | [empty]
+  '1'        | push 1 onto the stack  |
+             |                        | 1
+  '3'        | push 3 onto the stack  |
+             |                        | 1, 3
+  '+'        | perform addition       |
+             |                        | 4
+  '6'        | push 6 onto the stack  |
+             |                        | 4, 6
+  '2'        | push 2 onto the stack  |
+             |                        | 4, 6, 2
+  '*'        | perform multiplication |
+             |                        | 4, 12
+  '7'        | push 7 onto the stack  |
+             |                        | 4, 12, 7
+  '+'        | perform addition       |
+             |                        | 4, 19
+  '*'        | perform multiplication |
+             |                        | 76
+  </pre>
  
  
   The machine will return 76 as the result as it is the topmost element of
