@@ -11,7 +11,7 @@ namespace stack_machine
         static void Main(string[] args)
         {
             int result = 0;
-            result = Solution("");
+            result = Solution("11++");
             Console.WriteLine(result);
         }
 
